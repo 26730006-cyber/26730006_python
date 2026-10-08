@@ -1,0 +1,7 @@
+import sys
+
+part1 = sys.stdin.readline().strip()
+part2 = sys.stdin.readline().strip()
+part3 = sys.stdin.readline().strip()
+
+print(f"{part1}-{part2}-{part3}")
