@@ -1,0 +1,6 @@
+import sys
+
+n = float(sys.stdin.readline())
+piece = n / 3
+
+print(f"{piece:.2f}")
