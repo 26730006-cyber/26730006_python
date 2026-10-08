@@ -1,0 +1,8 @@
+import sys
+
+older_name, older_age = sys.stdin.readline().split()
+younger_name, younger_age = sys.stdin.readline().split()
+
+diff = int(older_age) - int(younger_age)
+
+print(f"{older_name}'s age - {younger_name}'s age = {diff}")
