@@ -1,0 +1,5 @@
+import sys
+
+first, second = sys.stdin.readline().split()
+
+print(f"{second} {first}{second}")
