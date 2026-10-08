@@ -1,0 +1,6 @@
+import sys
+
+name = sys.stdin.readline().strip()
+age = sys.stdin.readline().strip()
+
+print(f"{name} is {age} years old.")
