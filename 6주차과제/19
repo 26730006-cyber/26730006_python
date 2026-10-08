@@ -1,0 +1,10 @@
+import sys
+
+A, B = sys.stdin.readline().split()
+
+triple_A = A * 3
+
+if B in triple_A:
+    print(A + B)
+else:
+    print(B + B)
