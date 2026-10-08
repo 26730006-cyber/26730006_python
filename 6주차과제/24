@@ -1,0 +1,8 @@
+data = [
+    ("name", "subject"),
+    ("minsoo", "math"),
+    ("chulsoo", "science")
+]
+
+for name, subject in data:
+    print(f"{name:>10}{subject:>10}")
