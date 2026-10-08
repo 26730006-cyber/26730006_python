@@ -1,1 +1,11 @@
 
+import sys
+
+a, b = sys.stdin.readline().split()
+start, end = ord(a), ord(b)
+
+step = 1 if start <= end else -1
+
+for code in range(start, end + step, step):
+    print(chr(code), end='')
+print()
