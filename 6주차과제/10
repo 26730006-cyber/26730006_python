@@ -1,0 +1,10 @@
+import sys
+
+pi = 3.14
+
+r = float(sys.stdin.readline())
+
+area = pi * r * r
+
+print(f"{pi:.2f}")
+print(f"{pi:.2f} * {r:.2f} * {r:.2f} = {area:.1f}")
