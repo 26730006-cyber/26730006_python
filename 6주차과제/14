@@ -1,0 +1,6 @@
+import sys
+
+hour = int(sys.stdin.readline())
+minute = int(sys.stdin.readline())
+
+print(f"{hour}:{minute}")
