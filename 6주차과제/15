@@ -1,0 +1,13 @@
+import sys
+
+hour, minute = map(int, sys.stdin.readline().split())
+
+period = "PM" if hour >= 12 else "AM"
+
+display_hour = hour
+if hour > 12:
+    display_hour -= 12
+elif hour == 0:
+    display_hour = 12
+
+print(f"{display_hour}:{minute} {period}")
