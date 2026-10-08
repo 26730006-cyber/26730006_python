@@ -1,0 +1,9 @@
+A = "apple orange banana"
+B = "   Hello world!   "
+
+words = A.split()
+print(" ".join(reversed(words)))
+
+print(f'"{B}"')
+
+print(f'"{B.strip()}"')
