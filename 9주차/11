@@ -1,0 +1,10 @@
+max_val = 0
+
+while True:
+    n = int(input("수를 입력하세요: "))
+    if n == 0:
+        break
+    if n > max_val:
+        max_val = n
+
+print(max_val)
