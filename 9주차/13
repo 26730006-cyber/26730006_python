@@ -1,0 +1,16 @@
+menu = {
+    1: "ADD",
+    2: "DELETE",
+    3: "SEARCH",
+    4: "PRINT"
+}
+
+while True:
+    n = int(input("번호를 입력하세요: "))
+    if n == 5:
+        print("EXIT")
+        break
+    elif n in menu:
+        print(menu[n])
+    else:
+        print("ERROR")
