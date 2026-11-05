@@ -1,0 +1,16 @@
+commands = {
+    'A': "ADD",
+    'B': "BACK",
+    'C': "COPY",
+    'D': "DELETE"
+}
+
+while True:
+    cmd = input("명령을 입력하세요: ")
+    if cmd == 'E':
+        print("EXIT")
+        break
+    elif cmd in commands:
+        print(commands[cmd])
+    else:
+        print("NONE")
