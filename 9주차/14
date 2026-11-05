@@ -1,0 +1,15 @@
+menu = {
+    1: "NEW",
+    2: "OPEN",
+    3: "SAVE"
+}
+
+while True:
+    n = int(input("번호를 입력하세요: "))
+    if n == 4:
+        print("QUIT")
+        break
+    elif n in menu:
+        print(menu[n])
+    else:
+        print("AGAIN")
