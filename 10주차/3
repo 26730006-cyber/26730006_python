@@ -1,0 +1,7 @@
+print(s[::-1])
+print(s[:5] + s[6:])
+
+print("a" in "Abc") #false
+print("a" in "abc") #true
+print("a" not in "Abc") #true
+
