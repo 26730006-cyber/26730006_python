@@ -1,0 +1,5 @@
+s= 'Monty Python'
+#슬라이싱 [start:end:step]
+#python
+print(s[6:12])
+print(s[6:])
